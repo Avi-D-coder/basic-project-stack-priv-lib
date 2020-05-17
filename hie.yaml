@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "basic-project:lib"
+
+    - path: "./internal"
+      component: "basic-project:lib:basic-internal"
+
+    - path: "./app/Main.hs"
+      component: "basic-project:exe:basic-project-exe"
+
+    - path: "./test"
+      component: "basic-project:test:basic-project-test"
